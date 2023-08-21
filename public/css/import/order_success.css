@@ -1,0 +1,129 @@
+/*ORDER_SUCCESS*/
+.order-success-page #notification-wp { 
+    margin-bottom: 15px;
+}
+.order-success-page #notification-wp .section-head .section-title{
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: normal;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-family: 'Roboto Regular';
+    font-weight: normal;
+}    
+.order-success-page #notification-wp .section-detail p{
+    font-size: 15px;
+    line-height: normal;
+    font-weight: 500;
+    padding: 5px 0;
+    font-family: 'Roboto Regular';
+    font-weight: normal;
+}       
+.order-success-page #order-infor-wp{
+    float: left;
+    width: 47.5%;
+    margin-right: 2.5%;
+}
+.order-success-page #product-infor-wp{
+    float: right;
+    width: 47.5%;
+    margin-left: 2.5%;
+}
+.order-success-page #order-infor-wp .section-detail p{
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 500;
+    padding: 5px 0;
+    font-family: 'Roboto Regular';
+    font-weight: normal;
+}
+.order-success-page #order-infor-wp .section-head .section-title,.order-success-page #product-infor-wp .section-head .section-title{
+    position: relative;
+    display: inline-block;
+    font-size: 21px;
+    color: #272727;
+    text-transform: uppercase;
+    line-height: normal;
+    padding: 10px 0 10px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    font-family: 'Roboto Regular';
+    font-weight: normal;
+}   
+.order-success-page #order-infor-wp .section-head .section-title:before,.order-success-page #product-infor-wp .section-head .section-title:before{
+    position: absolute;
+    content: '';
+    bottom: -1px;
+    width: 100px;
+    height: 2px;
+    background: #bf2424;
+    left: 0px;
+}
+
+#product-infor-wp .product-infor-table{ width: 100%; text-align: center;}
+#product-infor-wp .product-infor-table tr td:nth-child(1){  text-align: left;}
+#product-infor-wp .product-infor-table thead tr{ border-bottom: 1px solid #ddd;}
+#product-infor-wp .product-infor-table thead tr td{
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Roboto Medium';
+}
+#product-infor-wp .product-infor-table tbody tr td,#order-infor-wp .customer-infor-table tbody tr td{
+    padding: 15px 0px;
+    border-bottom: 1px solid #ddd;
+    display: table-cell;
+    vertical-align: middle;
+}
+#order-infor-wp .customer-infor-table tbody tr td:nth-child(1){ 
+    text-transform: uppercase;
+    font-family: 'Roboto Medium';
+    width: 45%;
+}
+#order-infor-wp .customer-infor-table tbody tr:nth-child(1) td{ 
+padding-top: 0;
+}
+#product-infor-wp .product-infor-table tbody tr td .product-quantity{
+    display: inline-block;
+    padding-left: 10px;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+    font-size: 13px;
+}
+#product-infor-wp .product-infor-table tbody tr td .product-thumb{
+    display: inline-block;
+    width: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#order-review-wp .product-infor-table tbody tr td .product-thumb{
+    display: inline-block;
+    width: 100px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#product-infor-wp .product-infor-table tfoot tr td{
+    padding: 15px 0px;
+    text-transform: uppercase;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+}
+
+
+.wp-inner .cart-empty {
+    text-align: center;
+}
+.wp-inner .cart-empty a {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+}
+.wp-inner .cart-empty:hover a {
+    border: 1px solid #a16e6e;
+    color: #6196e6;
+}

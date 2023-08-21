@@ -1,0 +1,26 @@
+
+.title-post a {
+    color: black;
+    font-size: 16px;
+    font-weight:600;
+    line-height: 1.5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title-post:hover a {
+    color: rgb(20, 99, 195);
+    
+}
+.list-post-new li:not(:last-child) {
+    border-bottom: 1px solid #cccc;
+}
+.main-content .product-content{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-content .product-content h1{
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}

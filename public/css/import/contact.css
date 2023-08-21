@@ -1,0 +1,78 @@
+#contact-info-wp{
+    float: left;
+    width: 47.5%;
+    margin-right: 2.5%;
+}
+#map-wp{
+    float: right;
+    width: 47.5%;
+    margin-left: 2.5%;
+}
+#contact-info-wp .section-head .section-title{ font-size: 16px;}
+#contact-info-wp .section-head .section-title, #map-wp .section-head .section-title{
+    position: relative;
+    display: block;
+    font-size: 20px;
+    color: #272727;
+    text-transform: uppercase;
+    line-height: normal;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    font-family: 'Roboto Regular';
+    font-weight: normal;
+}
+#map-wp .section-head .section-title:before, #contact-info-wp .section-head .section-title:before{
+    position: absolute;
+    content: '';
+    bottom: -1px;
+    width: 100px;
+    height: 2px;
+    background: #bf2424;
+    left: 0px;
+}
+#contact-info-wp .form-row { padding-bottom: 15px;}
+#contact-info-wp .form-row .form-col input,#contact-info-wp .form-row .form-col textarea,#contact-info-wp .form-row .form-col select{
+border-radius: 5px;
+}
+#contact-info-wp .form-row label,#map-wp #payment-checkout-wp .title{ display: block; padding-bottom: 10px; font-family: 'Roboto Medium'; font-weight: normal;}
+#contact-info-wp .form-row .form-col:nth-child(2){ padding-right: 0;}
+#contact-info-wp .form-row .form-col input[type="text"], #contact-info-wp .form-row .form-col input[type="tel"], #contact-info-wp .form-row:nth-child(4) .form-col textarea{
+    width: 80%;
+    padding: 6px 12px;
+    border: 1px solid #cccccc;
+}
+#contact-info-wp .form-row:nth-child(4) .form-col textarea{ height: 150px;}
+#contact-info-wp .form-row .form-col input[type="text"]:focus, #contact-info-wp .form-row .form-col input[type="email"]:focus, #contact-info-wp .form-row .form-col input[type="tel"]:focus, #contact-info-wp .form-row:nth-child(3) .form-col textarea:focus{
+    border: 1px solid #777;
+}
+
+.checkout-page #fullname, .checkout-page #phone, .checkout-page #email, .checkout-page #desire{ margin-bottom: 0!important;}
+
+#contact-info-wp .section-detail .error,#payment-checkout-wp .error{
+    color: red;
+    padding: 10px 0 0 0;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+}
+.invalid {
+    border: 2px solid red !important;
+    border-radius: 2px;
+}
+#map-wp .section-detail p{
+    padding-bottom: 15px;
+}
+.place-contact-wp input[type="submit"] {
+    float: left;
+    display: inline-block;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+    border: none;
+    outline: none;
+    background: #3f5da6;
+    color: #fff;
+}
